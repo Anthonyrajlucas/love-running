@@ -7,7 +7,7 @@
 }
 body
 {
-    font-family: lato, sans-serif;
+    font-family: Lato, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
 }
@@ -209,7 +209,7 @@ margin: 5px 0;
     border: 2px solid white;
     box-sizing: border-box;
 }
-div h2
+#times h2
 {
     color: #fafafa; 
 }
@@ -248,7 +248,7 @@ column-gap: 0;
 /* Media Queries */
 /* for large to media screens size from 1200px wide and down*/
 
-@media screen and (max-width : 1200px) {
+@media screen and (max-width: 1200px) {
     #club-ethos
     {
         width: 65%;
@@ -277,4 +277,16 @@ column-gap: 0;
     {
         display: none;
     }
+}
+/* for medium screen size from 950px wide and downs */
+@media screen and (max-width: 950px) {
+    
+    #menu
+    {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    } 
 }
